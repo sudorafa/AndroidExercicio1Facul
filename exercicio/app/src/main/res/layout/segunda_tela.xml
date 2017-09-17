@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nome"
+        android:text="Dados de um estudante: Nome, Telefone, Endereço, Foto, Site Pessoal e Nota"
         tools:layout_constraintTop_creator="1"
         android:layout_marginStart="28dp"
         android:layout_marginTop="42dp"
@@ -19,17 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="28dp" />
 
-    <EditText
-        android:layout_width="0dp"
-        android:layout_height="53dp"
-        android:id="@+id/nomealuno"
 
-        android:layout_marginRight="240dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginEnd="290dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
-        tools:layout_constraintBaseline_creator="1"
-        tools:layout_editor_absoluteX="150dp" />
 
 </android.support.constraint.ConstraintLayout>
 
